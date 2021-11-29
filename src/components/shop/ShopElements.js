@@ -35,7 +35,6 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
-  /* margin-right: 50px; */
 
   padding: 20px 15px;
 `;
