@@ -11,7 +11,7 @@ import {
   TopConatiner,
   HangingLaces,
 } from "./CardElements";
-import ShoesImage from "../../images/Shoe_long.png"; //original
+
 import {
   DetailsContainer,
   SmallText,
