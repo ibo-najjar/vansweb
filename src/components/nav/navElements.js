@@ -11,9 +11,9 @@ export const Nav = styled.div`
   position: sticky;
   top: 0;
   z-index: 10;
-  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.9); ;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.9);
 `;
-export const Img = styled.div`
+export const img = styled.div`
   width: 100%;
   height: auto;
 `;
@@ -28,8 +28,10 @@ export const NavConatiner = styled.div`
 export const NavLogo = styled.div`
   display: flex;
   align-items: center;
-  width: 100px;
+  width: 110px;
   height: auto;
+  overflow: hidden;
+  min-width: 30px;
 `;
 export const MobileIcon = styled.div`
   display: none;

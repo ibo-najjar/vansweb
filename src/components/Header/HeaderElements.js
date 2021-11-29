@@ -35,7 +35,7 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 4px 15px;
   grid-area: col1;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   background-color: rgba(18, 18, 18, 0.7);
   border-radius: 30px;
   /* padding: 20px 15px; */

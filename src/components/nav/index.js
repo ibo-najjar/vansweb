@@ -30,7 +30,7 @@ const Navbar = () => {
       <Nav>
         <NavConatiner>
           <NavLogo>
-            <img src={LogoNav} />
+            <img src={LogoNav} style={{ overflow: "hidden" }} />
           </NavLogo>
           <MobileIcon>
             <FaBars />

@@ -23,8 +23,6 @@ import {
 import { useMotionValue, useTransform } from "framer-motion";
 import { Marginer } from "../marginer/index";
 import laces from "../../images/laces.png";
-import "../shop/index";
-import "./style.css";
 
 import BottomLogo from "../../images/redLogo.png";
 const Card = (props) => {
@@ -38,7 +36,7 @@ const Card = (props) => {
 
   console.log(props.shoesImageUrl);
   return (
-    <div className="card">
+    <>
       <Card3dDeminsion>
         <CardContainer
           style={{ x, y, rotateX, rotateY, z: 100 }}
@@ -89,7 +87,7 @@ const Card = (props) => {
           </BottomConatiner>
         </CardContainer>
       </Card3dDeminsion>
-    </div>
+    </>
   );
 };
 
