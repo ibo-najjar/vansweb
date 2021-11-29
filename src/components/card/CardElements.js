@@ -95,10 +95,9 @@ export const Shoes = styled(motion.div)`
   height: 180px;
   z-index: 99;
   user-select: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-right: 1em;
   margin-top: 2em;
-
   img {
     width: auto;
     height: 100%;
