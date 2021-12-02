@@ -39,6 +39,9 @@ export const Column1 = styled.div`
   background-color: rgba(18, 18, 18, 0.7);
   border-radius: 30px;
   /* padding: 20px 15px; */
+  @media screen and (max-width: 768px) {
+    border-radius: 0px;
+  }
 `;
 
 export const Column2 = styled.div`
@@ -68,7 +71,7 @@ export const Heading = styled.h1`
 `;
 
 export const Sub = styled.p`
-  max-width: 440px;
+  /* max-width: 440px; */
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 24px;

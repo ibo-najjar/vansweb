@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
-
 import { Button1 } from "../Button/ButtonElements";
 import {
   NavConatiner,
@@ -18,7 +17,7 @@ import {
 import LogoNav from "../../images/vanslogonav.png";
 
 // import Logo from "../../images/vans-shoes.svg";
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   const [hover, setHover] = useState(false);
 
   const onHover = () => {
@@ -32,7 +31,7 @@ const Navbar = () => {
           <NavLogo>
             <img src={LogoNav} style={{ overflow: "hidden" }} />
           </NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>

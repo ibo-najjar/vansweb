@@ -27,21 +27,46 @@ export const NavConatiner = styled.div`
 `;
 export const NavLogo = styled.div`
   display: flex;
-  align-items: center;
-  width: 110px;
+  /* align-items: center; */
+  width: 100px;
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   min-width: 30px;
+  justify-content: left;
+
+  @media screen and (max-width: 768px) {
+    margin-right: 65%;
+  } ;
 `;
 export const MobileIcon = styled.div`
   display: none;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    /* transform: translate(-100%, 60%); */
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: #de2c33;
+  } ;
 `;
+
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   list-style: none;
   text-align: center;
   margin-right: -60px;
+
+  @media screen and (max-width: 1000px) {
+    /* margin-right: -400px; */
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  } ;
 `;
 export const NavItem = styled.div``;
 export const NavLink = styled.div`
@@ -56,7 +81,11 @@ export const NavLink = styled.div`
     color: #de2c33;
   }
 `;
-export const ButtonWrapper = styled.div``;
+export const ButtonWrapper = styled.div`
+  @media screen and (max-width: 768px) {
+    display: none;
+  } ;
+`;
 
 export const Arrow1 = styled(BsArrowBarRight)`
   margin-left: 8px;
