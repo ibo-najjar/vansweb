@@ -24,6 +24,7 @@ export const NavConatiner = styled.div`
   width: 100%;
   max-width: 1500px;
   align-items: center;
+  padding: 0px 12px;
 `;
 export const NavLogo = styled.div`
   display: flex;
@@ -36,6 +37,7 @@ export const NavLogo = styled.div`
 
   @media screen and (max-width: 768px) {
     margin-right: 65%;
+    width: 40px;
   } ;
 `;
 export const MobileIcon = styled.div`
@@ -50,6 +52,7 @@ export const MobileIcon = styled.div`
     font-size: 2.2rem;
     cursor: pointer;
     color: #de2c33;
+    width: 18px;
   } ;
 `;
 
